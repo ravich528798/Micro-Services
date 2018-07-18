@@ -1,5 +1,8 @@
 package com.ravi.microservices.limitsservice.Models;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Limits {
     private int maximum;
     private int minimum;
